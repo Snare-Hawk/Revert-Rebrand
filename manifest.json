@@ -1,6 +1,6 @@
 {
     "id": "dev.replugged.RevertRebrand",
-    "name": "Revert Rebrand",
+    "name": "revert-rebrand",
     "description": "Reverts Discord's 2021 rebrand.",
     "author": {
         "name": "Snare-Hawk",
