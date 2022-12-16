@@ -2,7 +2,7 @@
 
 Download
 [this file](https://github.com/Snare-Hawk/Revert-Rebrand/releases/latest/download/dev.replugged.RevertRebrand.asar)
-to `%APPDATA%\Roaming\replugged\themes`
+to `%APPDATA%\Roaming\replugged\themes`.
 
 ## Troubleshooting
 
