@@ -14,7 +14,8 @@ button.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
 /* corrects any svg with the wrong blurple */
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 .flowerStar-2tNFCR path,
-.snowsgivingIcon-3d0pr1 path {
+.snowsgivingIcon-3d0pr1 path,
+.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z g rect {
   fill: var(--brand-experiment) !important;
 }
 
