@@ -3,67 +3,67 @@
 
 /* fixes buttons to be the correct blurple */
 button.lookOutlined-3yKVGo.colorBrand-I6CyqQ {
-    border-color: var(--brand-experiment) !important;
+  border-color: var(--brand-experiment) !important;
 }
 
 button.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
 .addTags-26suzl {
-    background-color: var(--brand-experiment);
+  background-color: var(--brand-experiment);
 }
 
 /* corrects any svg with the wrong blurple */
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 .flowerStar-2tNFCR path,
 .snowsgivingIcon-3d0pr1 path {
-    fill: var(--brand-experiment) !important;
+  fill: var(--brand-experiment) !important;
 }
 
 /* fixes some badges badge with the correct blurple */
 .newBadge-2r8BkJ,
 .sidebar-nqHbhN .textBadge-1fdDPJ {
-    background-color: var(--brand-experiment) !important;
+  background-color: var(--brand-experiment) !important;
 }
 
 /* fixes some emojis */
 [src*="https://cdn.discordapp.com/emojis/958824443445116960"],
 [src*="https://cdn.discordapp.com/emojis/890738617130037318"]
 {
-    content: url("https://i.imgur.com/o3ZPHnJ.png");
+  content: url("https://i.imgur.com/o3ZPHnJ.png");
 }
 
 [id*="invite"]:not(.focused-3qFvc8) .label-2gNW3x {
-    color: var(--brand-experiment);
+  color: var(--brand-experiment);
 }
 
 [id*="invite"]:not(.focused-3qFvc8) .iconContainer-1-SsTR path {
-    fill: var(--brand-experiment);
+  fill: var(--brand-experiment);
 }
 
 .colorRed-rQXKgM {
-    border-color: var(--old-red);
-    background-color: var(--old-red);
+  border-color: var(--old-red);
+  background-color: var(--old-red);
 }
 .colorDanger-3n-KnP:not(.focused-3qFvc8) .label-2gNW3x {
-    color: var(--old-red);
+  color: var(--old-red);
 }
 
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
-    color: var(--button-outline-danger-text) !important;
+  color: var(--button-outline-danger-text) !important;
 }
 .colorDanger-3n-KnP:not(.focused-3qFvc8) path {
-    fill: var(--old-red);
+  fill: var(--old-red);
 }
 .colorDanger-3n-KnP.focused-3qFvc8 {
-    background-color: var(--old-red);
+  background-color: var(--old-red);
 }
 
 [class*="premiumLabel-"]::before {
-    content: "Discord Nitro";
-    color: inherit;
-    font-size: 16px;
+  content: "Discord Nitro";
+  color: inherit;
+  font-size: 16px;
 }
 
 [class*="premiumLabel-"] {
-    font-size: 0px;
-    color: inherit !important;
+  font-size: 0px;
+  color: inherit !important;
 }
