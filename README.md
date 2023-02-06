@@ -1,10 +1,9 @@
 ## Install
 
-Download
-[this file](https://github.com/Snare-Hawk/Revert-Rebrand/releases/latest/download/dev.replugged.RevertRebrand.asar)
-to the themes folder.
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=Snare-Hawk/Revert-Rebrand&source=github)
 
 Windows: `%APPDATA%\replugged\themes`
+
 Linux: `~/.config/replugged/themes`
 
 ## Troubleshooting
