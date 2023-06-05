@@ -2,27 +2,27 @@
 @import url("https://goose-nest.github.io/GT-RevertRebrand/RevertRebrand.theme.css");
 
 /* fixes buttons to be the correct blurple */
-button.lookOutlined-3yKVGo.colorBrand-I6CyqQ {
+button[class*="lookOutlined"][class*="colorBrand"] {
   border-color: var(--brand-experiment) !important;
 }
 
-button.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
-.addTags-26suzl {
+button[class*="lookOutlined"][class*="colorBrand"]:hover,
+[class*="addTags"] {
   background-color: var(--brand-experiment);
 }
 
 /* corrects any svg with the wrong blurple */
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
-.gameVerifiedIcon-1YMUdQ .flowerStar-2tNFCR path,
-.snowsgivingIcon-3d0pr1 path,
-.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z g rect {
+[class*="gameVerifiedIcon"] [class*="flowerStar"] path,
+[class*="snowsgivingIcon"] path,
+[class*="tutorialContainer"] [class*="wrapper"][class*="selected"] g rect {
   fill: var(--brand-experiment) !important;
 }
 
 /* fixes some badges badge with the correct blurple */
-.newBadge-2r8BkJ,
-.sidebar-nqHbhN .textBadge-1fdDPJ,
-.betaTagIcon-BX5YL2 {
+[class*="newBadge"],
+[class*="sidebar"] [class*="textBadge"],
+[class*="betaTagIcon"] {
   background-color: var(--brand-experiment) !important;
 }
 
@@ -32,30 +32,30 @@ button.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
   content: url("https://i.imgur.com/o3ZPHnJ.png");
 }
 
-[id*="invite"]:not(.focused-3qFvc8) .label-2gNW3x {
+[id*="invite"]:not(.focused-3qFvc8) [class*="label"] {
   color: var(--brand-experiment);
 }
 
-[id*="invite"]:not(.focused-3qFvc8) .iconContainer-1-SsTR path {
+[id*="invite"]:not([class*="focused"]) [class*="iconContainer"] path {
   fill: var(--brand-experiment);
 }
 
-.colorRed-rQXKgM {
+[class*="colorRed"] {
   border-color: var(--old-red);
   background-color: var(--old-red);
 }
-.colorDanger-3n-KnP:not(.focused-3qFvc8) .label-2gNW3x {
+[class*="colorDanger"]:not([class*="focused"]) [class*="label"] {
   color: var(--old-red);
 }
 
-.lookOutlined-3yKVGo.colorRed-rQXKgM,
-.colorRed-rQXKgM .contents-3ca1mk {
+.lookOutlined[class*="colorRed"],
+[class*="colorRed"] [class*="contents"] {
   color: var(--button-outline-danger-text) !important;
 }
-.colorDanger-3n-KnP:not(.focused-3qFvc8) path {
+[class*="colorDanger"]:not(.focused-3qFvc8) path {
   fill: var(--old-red);
 }
-.colorDanger-3n-KnP.focused-3qFvc8 {
+[class*="colorDanger"][class*="focused"] {
   background-color: var(--old-red);
 }
 
@@ -71,35 +71,35 @@ button.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
 }
 
 /* reverts unread message and mention indicators */
-.bar-wDIGjg {
+[class*="bar"] {
   width: 208px;
   background-color: var(--background-accent);
 }
 
-.barText-1eIsLx {
+[class*="barText"] {
   color: var(--status-positive-text) !important;
 }
 
-.bar-wDIGjg div:not(.mentionsBar-DpLHCy) {
+[class*="bar"] div:not([class*="mentionsBar"]) {
   text-transform: uppercase;
   margin: auto;
 }
 
-.bar-wDIGjg.mentionsBar-DpLHCy .barText-1eIsLx {
+[class*="bar"][class*="mentionsBar"] [class*="barText"] {
   content: " " !important;
   font-size: 0px;
   padding: 0px;
 }
-.bar-wDIGjg.mentionsBar-DpLHCy .barText-1eIsLx::after {
+[class*="bar"][class*="mentionsBar"] [class*="barText"]::after {
   content: "New Mentions";
   font-size: 12px !important;
 }
 
-.bar-wDIGjg.mentionsBar-DpLHCy {
+[class*="bar"][class*="mentionsBar"] {
   background: var(--status-danger) !important;
   height: 16px !important;
 }
 
-.bar-wDIGjg svg {
+[class*="bar"] svg {
   display: none;
 }
