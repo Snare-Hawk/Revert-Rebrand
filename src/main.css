@@ -27,9 +27,8 @@ button.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
 }
 
 /* fixes some emojis */
-[src*="https://cdn.discordapp.com/emojis/958824443445116960"],
-[src*="https://cdn.discordapp.com/emojis/890738617130037318"]
-{
+[src*="emojis/958824443445116960"],
+[src*="emojis/890738617130037318"] {
   content: url("https://i.imgur.com/o3ZPHnJ.png");
 }
 

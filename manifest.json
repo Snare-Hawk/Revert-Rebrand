@@ -1,5 +1,5 @@
 {
-  "id": "dev.replugged.RevertRebrand",
+  "id": "dev.Snare-Hawk.RevertRebrand",
   "name": "Revert Rebrand",
   "description": "Reverts Discord's 2021 rebrand.",
   "author": {
@@ -7,10 +7,10 @@
     "discordID": "301082610438897664",
     "github": "Snare-Hawk"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "updater": {
-    "type": "github",
-    "id": "Snare-Hawk/Revert-Rebrand"
+    "type": "store",
+    "id": "dev.Snare-Hawk.RevertRebrand"
   },
   "license": "MIT",
   "type": "replugged-theme",
