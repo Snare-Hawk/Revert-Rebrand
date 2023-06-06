@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
 @import url("https://goose-nest.github.io/GT-RevertRebrand/RevertRebrand.theme.css");
+@import url("https://snare-hawk.github.io/snare-CSS/revert-notifications.css");
 
 /* fixes buttons to be the correct blurple */
 button[class*="lookOutlined"][class*="colorBrand"] {
@@ -68,38 +69,4 @@ button[class*="lookOutlined"][class*="colorBrand"]:hover,
 [class*="premiumLabel-"] {
   font-size: 0px;
   color: inherit !important;
-}
-
-/* reverts unread message and mention indicators */
-[class*="bar"] {
-  width: 208px;
-  background-color: var(--background-accent);
-}
-
-[class*="barText"] {
-  color: var(--status-positive-text) !important;
-}
-
-[class*="bar"] div:not([class*="mentionsBar"]) {
-  text-transform: uppercase;
-  margin: auto;
-}
-
-[class*="bar"][class*="mentionsBar"] [class*="barText"] {
-  content: " " !important;
-  font-size: 0px;
-  padding: 0px;
-}
-[class*="bar"][class*="mentionsBar"] [class*="barText"]::after {
-  content: "New Mentions";
-  font-size: 12px !important;
-}
-
-[class*="bar"][class*="mentionsBar"] {
-  background: var(--status-danger) !important;
-  height: 16px !important;
-}
-
-[class*="bar"] svg {
-  display: none;
 }
