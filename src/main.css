@@ -21,7 +21,6 @@ button[class*="lookOutlined"][class*="colorBrand"]:hover,
 }
 
 /* fixes some badges badge with the correct blurple */
-[class*="newBadge"],
 [class*="sidebar"] [class*="textBadge"]:not([class^="liveShapeRound"]),
 [class*="betaTagIcon"] {
   background-color: var(--brand-experiment);
