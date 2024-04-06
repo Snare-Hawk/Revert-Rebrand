@@ -21,12 +21,14 @@
 /* Permission checkmarks in authorized apps to the old green */
 /* The images in these are specified by class, so it's impossible to get more specific of a match than this */
 .permissionCheckmark__6860a {
-  background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg") no-repeat;
+  background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg")
+    no-repeat;
 }
 
 /* Revert the 'An adventure begins' popup to the old green */
 [src="/assets/3fba9b3d08682f3ce0344e289fe668cb.svg"] {
-  content: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg") no-repeat center 20px;
+  content: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg")
+    no-repeat center 20px;
 }
 
 /* Change the report submitted logo back to old one */
