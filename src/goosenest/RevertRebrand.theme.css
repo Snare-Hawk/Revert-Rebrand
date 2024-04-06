@@ -1,0 +1,55 @@
+/**
+  * @name Revert Rebrand
+  * @author GooseNest
+  * @donate https://github.com/sponsors/CanadaHonk
+  * @description Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
+  * @invite neMncS2
+  * @source https://Goose-Nest.github.io/GT-RevertRebrand/src/RevertRebrand.theme.css
+  * @website https://github.com/Goose-Nest/GT-RevertRebrand
+  * @version 5.2
+*/
+
+/* If you do not want some things reverted, commend out imports like /* @import url("...") */
+
+/* [Recommended] Revert CSS variables: colors, fonts */
+@import url("./variables.css");
+
+/* Generated hardcoded color fixes */
+@import url("./hardcoded.css");
+
+/* Individual components: */
+
+/* Revert mentions */
+@import url("./components/mentions.css");
+
+/* Revert reactions */
+@import url("./components/reactions.css");
+
+/* Revert profile pictures */
+@import url("./components/pfps.css");
+
+/* Revert folders (default colors back to old blurple) */
+@import url("./components/folders.css");
+
+/* Revert windows wordmark */
+@import url("./components/wordmark.css");
+
+/* [Optional] Revert new user popouts */
+/* @import url('./components/userPopout.css'); */
+
+/* [Optional] Revert new role designs */
+/* @import url('./components/roles.css'); */
+
+/* General changes: */
+
+/* Revert some BD specific elements */
+@import url("./general/bd.css");
+
+/* Revert some inputs */
+@import url("./general/inputs.css");
+
+/* Revert some SVGs (colors for smaller icons) */
+@import url("./general/svgs.css");
+
+/* Revert some other minor things */
+@import url("./general/other.css");

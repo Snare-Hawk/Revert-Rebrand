@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
-@import url("https://goose-nest.github.io/GT-RevertRebrand/RevertRebrand.theme.css");
+@import url("./goosenest/RevertRebrand.theme.css");
 @import url("https://snare-hawk.github.io/snare-CSS/revert-notifications.css");
 
 /* fixes buttons to be the correct blurple */
@@ -61,13 +61,13 @@ button[class*="lookOutlined"][class*="colorBrand"]:hover,
   background-color: var(--old-red);
 }
 
-[class*="premiumLabel-"]::before {
+[class*="premiumLabel_"]::before {
   content: "Discord Nitro";
   color: inherit;
   font-size: 16px;
 }
 
-[class*="premiumLabel-"] {
+[class*="premiumLabel_"] {
   font-size: 0px;
   color: inherit !important;
 }
