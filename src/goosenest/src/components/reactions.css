@@ -1,0 +1,44 @@
+/* Revert reactions */
+.reaction_ef7e09 {
+  border-radius: 0.25rem;
+  background: var(--background-modifier-selected);
+
+  border: none;
+}
+
+.mentioned_fa6fd2 .reaction_ef7e09,
+.mentioned_fa6fd2 .reaction_ef7e09:hover {
+  background-color: var(--background-modifier-accent);
+}
+
+.reaction_ef7e09 .reactionCount_b780c8 {
+  color: var(--text-muted); /* A11Y-- */
+}
+
+.reaction_ef7e09 .reactionInner_d6d30f {
+  padding: 0 0.375rem;
+}
+
+/* Self reactions */
+.reaction_ef7e09.reactionMe__9fc5c .reactionCount_b780c8 {
+  color: var(--brand-experiment); /* A11Y-- */
+}
+
+.mentioned_fa6fd2 .reaction_ef7e09.reactionMe__9fc5c,
+.mentioned_fa6fd2 .reactionMe__9fc5c.reaction_ef7e09:hover,
+.reaction_ef7e09.reactionMe__9fc5c {
+  background-color: var(--brand-experiment-30a);
+}
+
+/* Reaction hover */
+.reaction_ef7e09:hover .reactionCount_b780c8 {
+  color: var(--interactive-active) !important;
+}
+
+.reaction_ef7e09:hover {
+  background-color: var(--background-modifier-selected);
+}
+
+.reaction_ef7e09.reactionMe__9fc5c:hover {
+  background-color: var(--brand-experiment-40a);
+}

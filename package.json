@@ -5,21 +5,20 @@
   "engines": {
     "node": ">=14.0.0"
   },
+  "private": true,
   "scripts": {
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",
     "bundle": "replugged bundle theme",
+    "release": "replugged release",
     "lint": "prettier ./src --check",
     "lint:fix": "prettier ./src --write"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@parcel/config-default": "^2.9.1",
-    "@parcel/core": "^2.9.1",
-    "@types/node": "^18.16.16",
-    "prettier": "^2.8.8",
-    "replugged": "4.0.0-beta0.25"
+    "prettier": "^3.2.5",
+    "replugged": "^4.7.9"
   }
 }
